@@ -408,7 +408,8 @@ h1 {
     text-align: center;
     margin: 0;
 }
-.our-blog p{
+
+.our-blog p {
     font-family: var(--secondary-font);
     text-align: center;
     margin: 0;
@@ -783,7 +784,7 @@ iframe {
 
 .service-text {
     margin-top: 80px;
-    background-color: var(--nav-bg);
+    background-color: #aaaaaa2f;
     padding: 50px 0px;
 }
 
@@ -1497,11 +1498,13 @@ iframe {
 .team-member-section {
     margin-top: 450px;
 }
-.team-member-section h1{
+
+.team-member-section h1 {
     font-family: var(--primary-font);
     text-align: center;
 }
-.team-member-section p{
+
+.team-member-section p {
     font-family: var(--secondary-font);
     margin-bottom: 30px;
     color: #ee4613;
@@ -1766,7 +1769,8 @@ iframe {
     -o-transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
 }
-.generic_head_content .head span{
+
+.generic_head_content .head span {
     font-family: var(--primary-font);
 }
 
@@ -1938,7 +1942,7 @@ iframe {
 }
 
 .price-heading h1 {
-    color:var(--text-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0 0 50px 0;
     font-size: 36px;
