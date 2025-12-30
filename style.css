@@ -337,8 +337,6 @@ img {
     text-align: center;
     font-family: var(--primary-font);
     font-size: 2.2em;
-    margin: 5px 0px;
-    padding-bottom: 20px;
 }
 
 .need-services .need-heading p {
@@ -346,7 +344,7 @@ img {
     font-family: var(--primary-font);
     font-size: 1em;
     color: #ee4613;
-    margin: 5px 0px;
+    padding: 10px 0px;
 }
 
 /* Need  Something Section Ended */
