@@ -672,7 +672,7 @@ ul {
 /* Contact page Desings */
 .banner {
     overflow: hidden;
-    background-color: var(--nav-bg);
+    background-color:#efefef;
 }
 
 .freelance-box .icon-content p {
