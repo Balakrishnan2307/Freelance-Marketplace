@@ -5,7 +5,7 @@
     --background-color: #ffffff;
     --text-color: #000000;
     --primary-color: #fff;
-    --nav-bg: #ffffff;
+    --nav-bg: #aaaaaa;
     --nav-text-color: #2e2e2e;
     --primary-font: "Nunito", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
@@ -667,24 +667,37 @@ ul {
 }
 
 /* footer section Ended */
+/* All Page Banner Design Begin*/
+.banner{
+    margin-top: 80px;
+    background-image:url(./Images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 50px 20px; */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner p{
+    font-family: var(--secondary-font);
+    margin-top: 5px;
+}
+
+
+/* All Page Banner Design Ended*/
 
 /* Contact page Desings */
-.banner {
-    overflow: hidden;
-    background-color: #efefef;
-    padding: 50px 0px;
-}
 
 .freelance-box .icon-content p {
     text-align: left;
 }
 
-.banner-text {
+/* .banner-text {
     margin-top: 80px;
     padding: 50px 0px;
     background-color: #aaaaaa2f;
-}
-.contact .contact-text 
+} */
 
 .contact-text .contact-content h1,
 p {
@@ -786,7 +799,7 @@ iframe {
 
 .service-text {
     margin-top: 80px;
-    background-color: #aaaaaa2f;
+    background-color: var(--nav-bg);
     padding: 50px 0px;
 }
 
@@ -2024,8 +2037,9 @@ iframe {
         margin-top: 15px;
     }
 
-    .our-blog {
-        padding: 80px 20px;
+    #blog-banner {
+        margin-top: -80px;
+        background-color: green;
     }
 
 
