@@ -103,7 +103,7 @@ body {
     display: none;
     background-color: transparent;
     border: none;
-    font-size: 1.5rem;
+    font-size:35px;
     cursor: pointer;
     color: var(--text-color);
 }
