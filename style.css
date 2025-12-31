@@ -672,17 +672,19 @@ ul {
 .banner {
     overflow: hidden;
     background-color: #efefef;
+    padding: 50px 0px;
 }
 
 .freelance-box .icon-content p {
     text-align: left;
 }
 
-.contact-text {
+.banner-text {
     margin-top: 80px;
     padding: 50px 0px;
     background-color: #aaaaaa2f;
 }
+.contact .contact-text 
 
 .contact-text .contact-content h1,
 p {
