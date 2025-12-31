@@ -1510,7 +1510,9 @@ iframe {
 
 
 /* team member section */
-
+.team-member-section-head{
+    padding: 0px 20px;
+}
 
 .team-member-section h1 {
     font-family: var(--primary-font);
