@@ -6,10 +6,11 @@
     --text-color: #000000;
     --primary-color: #fff;
     --banner-color: #aaaaaa;
-    --nav-bg:#efefef;
+    --nav-bg: #efefef;
     --nav-text-color: #2e2e2e;
     --primary-font: "Nunito", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
+    --hover-color: #ee4613;
 }
 
 /* Dark Theme */
@@ -60,6 +61,9 @@ body {
 }
 
 /* Navigation */
+.nav-header .mg-header nav{
+    padding: 0px 20px;
+}
 .mg-header {
     display: flex;
     width: 100%;
@@ -78,33 +82,31 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
-.nav-links a {
+.nav-link {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
-    color: var(--nav-text-color);
+    /* color: var(--nav-text-color); */
     font-size: 1rem;
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     cursor: pointer;
 }
-
-.nav-links a:hover {
-    color: #ee4613;
-
-}
-
-.nav-links a:active {
+header .mg-header .nav-link:hover{
     color: #ee4613;
 }
+header .mg-header .nav-link:focus{
+    color: #ee4613;
+}
+
 
 /* Hamburger Menu Button */
 .menu-toggle {
     display: none;
     background-color: transparent;
     border: none;
-    font-size:35px;
+    font-size: 35px;
     cursor: pointer;
     color: var(--text-color);
 }
@@ -669,9 +671,9 @@ ul {
 
 /* footer section Ended */
 /* All Page Banner Design Begin*/
-.banner{
+.banner {
     margin-top: 80px;
-    background-image:url(./Images/banner.jpg);
+    background-image: url(./Images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* padding: 50px 20px; */
@@ -680,7 +682,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.banner p{
+
+.banner p {
     font-family: var(--secondary-font);
     margin-top: 5px;
 }
@@ -1511,7 +1514,7 @@ iframe {
 
 
 /* team member section */
-.team-member-section-head{
+.team-member-section-head {
     padding: 0px 20px;
 }
 
