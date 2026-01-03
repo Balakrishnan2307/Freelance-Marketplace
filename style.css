@@ -88,18 +88,17 @@ body {
 .nav-link {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
-    /* color: var(--nav-text-color); */
+    color: var(--nav-text-color);
     font-size: 1rem;
     /* margin: 10px 10px; */
     cursor: pointer;
 }
 header .mg-header .nav-link:hover{
+    color: var(--hover-color);
+}
+header .mg-header .nav-links li a.active{
     color: #ee4613;
 }
-header .mg-header .nav-link:focus{
-    color: #ee4613;
-}
-
 
 /* Hamburger Menu Button */
 .menu-toggle {
