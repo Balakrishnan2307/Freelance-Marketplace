@@ -63,47 +63,14 @@ body {
 }
 
 /* Navigation */
-.nav-header .mg-header nav {
-    padding: 0px 20px;
+.navbar{
+    padding: 15px 30px;
+}
+.theme-toggle{
+    margin-left: 5px;
 }
 
-.mg-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
 
-.nav {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-}
-
-.nav-link {
-    font-family: "Nunito", sans-serif;
-    text-decoration: none;
-    color: var(--nav-text-color);
-    font-size: 1rem;
-    /* margin: 10px 10px; */
-    cursor: pointer;
-}
-
-header .mg-header .nav-link:hover {
-    color: var(--hover-color);
-}
-
-header .mg-header .nav-links li a.active {
-    color: #ee4613;
-}
 
 /* Hamburger Menu Button */
 .menu-toggle {
