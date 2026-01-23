@@ -805,8 +805,7 @@ b, strong{
   width: 264px;
   overflow: hidden;
   --tw-bg-opacity: 1;
-  background-color: rgb(63 77 103 / var(--tw-bg-opacity));
-  --tw-shadow: 1px 0 20px 0 #3f4d67;
+  background-color: white;
   --tw-shadow-colored: 1px 0 20px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   transition-property: all;
@@ -890,7 +889,8 @@ b, strong{
   font-weight: 600;
   text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(232 237 247 / var(--tw-text-opacity));
+  color: black  ;
+  /* color: rgb(232 237 247 / var(--tw-text-opacity)); */
 }
 .pc-navbar .pc-caption:first-child{
   padding-top: 0.625rem;
@@ -904,6 +904,7 @@ b, strong{
 }
 .pc-navbar .pc-link{
   position: relative;
+  color: black;
   display: block;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -911,7 +912,7 @@ b, strong{
   padding-bottom: 0.625rem;
   font-size: 0.875rem;
   --tw-text-opacity: 1;
-  color: rgb(169 183 208 / var(--tw-text-opacity));
+  /* color: rgb(169 183 208 / var(--tw-text-opacity)); */
 }
 .pc-navbar .pc-link:is([data-pc-theme="dark"] *){
   --tw-text-opacity: 1;
@@ -986,6 +987,7 @@ b, strong{
 }
 .pc-navbar >.pc-item{
   position: relative;
+  
 }
 .pc-navbar >.pc-item::before{
   position: absolute;
@@ -1001,20 +1003,25 @@ b, strong{
   opacity: 0.1;
   --tw-content: "";
   content: var(--tw-content);
+  color: #ec6325;
 }
 .pc-navbar >.pc-item >.pc-link:hover::after{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(33 37 41 / var(--tw-bg-opacity));
+  /* background-color: rgb(33 37 41 / var(--tw-bg-opacity)); */
+  background-color: #ec6325;
 }
 .pc-navbar >.pc-item.active >.pc-link{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  /* color: rgb(255 255 255 / var(--tw-text-opacity)); */
+  color: #ec6325;
+  font-weight: 700;
 }
 .pc-navbar >.pc-item.active >.pc-link::after{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(33 37 41 / var(--tw-bg-opacity));
+  /* background-color: rgb(33 37 41 / var(--tw-bg-opacity)); */
+  background-color: #ec6325;
 }
 .pc-navbar >.pc-item.pc-trigger, .pc-navbar >.pc-item.active{
   background-color: rgba(0,0,0,0.1);
@@ -2449,7 +2456,8 @@ text:is([data-pc-theme="dark"] *),.apexcharts-theme-light .apexcharts-menu-icon:
 }
 .card .card-footer:is([data-pc-theme="dark"] *){
   --tw-border-opacity: 1;
-  border-color: rgb(57 59 63 / var(--tw-border-opacity));
+  /* border-color: rgb(57 59 63 / var(--tw-border-opacity)); */
+  border-color:#ec6325;
 }
 .card .card-link{
   margin-right: 0.75rem;
@@ -5210,7 +5218,8 @@ table.dataTable thead tr >.dtfc-fixed-start:is([data-pc-theme="dark"] *),table.d
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
 }
 .bg-theme-bg-1{
-  background-image: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+  /* background-image: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%); */
+  background-color: #ec6325;
 }
 .bg-theme-bg-2{
   background-image: linear-gradient(-135deg, #899fd4 0%, #a389d4 100%);
