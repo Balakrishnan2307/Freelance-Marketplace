@@ -5222,7 +5222,7 @@ table.dataTable thead tr >.dtfc-fixed-start:is([data-pc-theme="dark"] *),table.d
   background-color: #ec6325;
 }
 .bg-theme-bg-2{
-  background-image: linear-gradient(-135deg, #899fd4 0%, #a389d4 100%);
+  background-color: grey;
 }
 .from-\[rgb\(37\2c 161\2c 244\)\]{
   --tw-gradient-from: rgb(37,161,244) var(--tw-gradient-from-position);
