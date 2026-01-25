@@ -292,10 +292,10 @@ body {
 
 .form-input:focus {
   border: 1px solid transparent;
-  -webkit-border-image-source: -webkit-linear-gradient(to right, #9face6, #74ebd5);
+  /* -webkit-border-image-source: -webkit-linear-gradient(to right, #9face6, #74ebd5);
   -moz-border-image-source: -moz-linear-gradient(to right, #9face6, #74ebd5);
   -o-border-image-source: -o-linear-gradient(to right, #9face6, #74ebd5);
-  border-image-source: linear-gradient(to right, #9face6, #74ebd5);
+  border-image-source: linear-gradient(to right, #9face6, #74ebd5); */
   -webkit-border-image-slice: 1;
   border-image-slice: 1;
   border-radius: 5px;
@@ -337,11 +337,12 @@ body {
   color: #fff;
   text-transform: uppercase;
   border: none;
-  background-image: -moz-linear-gradient(to left, #74ebd5, #9face6);
+  background-color: #ee4613;
+  /* background-image: -moz-linear-gradient(to left, #74ebd5, #9face6);
   background-image: -ms-linear-gradient(to left, #74ebd5, #9face6);
   background-image: -o-linear-gradient(to left, #74ebd5, #9face6);
   background-image: -webkit-linear-gradient(to left, #74ebd5, #9face6);
-  background-image: linear-gradient(to left, #74ebd5, #9face6);
+  background-image: linear-gradient(to left, #74ebd5, #9face6); */
 }
 
 input[type=checkbox]:not(old) {

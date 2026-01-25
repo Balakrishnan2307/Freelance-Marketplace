@@ -160,15 +160,17 @@ header .mg-header .nav-links li a.active {
 }
 
 .header-text {
-    padding: 100px 60px;
+    padding: 80px 60px;
+    height: 500px;
     background-image: url(./Images/imgi_36_banner-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 80px;
 }
 
 .header-text h1 {
     font-family: var(--primary-font);
-    font-size: 4em;
+    font-size: 50px;
     text-transform: capitalize;
     color: #ffffff;
     text-align: start;
@@ -248,6 +250,11 @@ header .mg-header .nav-links li a.active {
 .service-section-start {
     /* overflow: hidden; */
     padding: 0px 20px;
+}
+
+.service-section-start .service-section p {
+    color: var(--text-color);
+    margin-top: 10px;
 }
 
 .service-section .icon {
@@ -525,6 +532,10 @@ ul {
     padding: 0px;
 }
 
+.cta-section .section-title h1 {
+    text-align: start;
+}
+
 .footer-section {
     background: var(--background-color);
     position: relative;
@@ -740,21 +751,46 @@ ul {
 
 /* footer section Ended */
 /* All Page Banner Design Begin*/
-.banner {
+.breadcrumb {
     margin-top: 80px;
-    background-image: url(./Images/banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* padding: 50px 20px; */
+    position: relative;
+    z-index: 1;
     height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.breadcrumb_bg {
+    background-image: url("../../Images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.breadcrumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    opacity: 0.7;
+    z-index: -1;
 }
 
 .banner p {
     font-family: var(--secondary-font);
     margin-top: 5px;
+    color: black;
+}
+
+.breadcrumb .breadcrumb_tittle h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 
@@ -959,6 +995,7 @@ iframe {
     font-size: 14px;
     font-weight: 400;
     text-align: justify;
+    color: var(--text-color);
 }
 
 
@@ -2101,10 +2138,11 @@ iframe {
 /* Responsive Navigation */
 @media screen and (max-width: 820px) {
     .header-text {
-        padding-top: 150px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-bottom: 50px;
         padding-left: 20px;
         padding-right: 20px;
+        margin-bottom: 10px;
     }
 
     .header-text h1 {
@@ -2195,6 +2233,27 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.counter-up {
+    padding-top: 50px;
+}
+
+.counter-up .content .icon {
+    margin-bottom: 10px;
+}
+
+.counter-up .content .icon span {
+    background-color: #ee4613;
+    padding: 10px 10px;
+    color: white;
+    font-size: 36px;
+    border-radius: 5px;
+
+}
+
+.counter-up .content .para {
+    color: var(--text-color);
 }
 
 /*===========================
@@ -3026,7 +3085,8 @@ p {
 }
 
 .client-logo-section .single-logo {
-    opacity: .43;
+    /* opacity: .43; */
+    /* filter: brightness(100); */
     transition: all 0.3s ease-out 0s;
 }
 
@@ -3087,7 +3147,9 @@ p {
     background-image: url("../img/service/service-bg.jpg");
     box-shadow: none;
 }
-.service-section .section-title p,h1{
+
+.service-section .section-title p,
+h1 {
     text-align: center;
     color: var(--text-color);
 }
@@ -3190,16 +3252,34 @@ p {
     color: #ee4613;
     font-size: 42px;
 }
-.counter-up-section h1{
+
+.counter-up-section h1 {
     text-align: start;
     font-size: 34px;
 }
 
-.counter-up-wrapper p{
+.counter-up-wrapper p {
     font-size: 18px;
     text-align: start;
     color: var(--text-color);
 }
+
+.counter-up .wow {
+    color: var(--text-color);
+    /* width: 70%; */
+}
+
+.counter-up .counter-up-heading {
+    display: flex;
+    justify-content: center;
+
+}
+
+.counter-up .counter-up-heading .headings {
+    width: 70%;
+
+}
+
 
 .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-1 {
     background: #FFEFFF;
@@ -3241,4 +3321,16 @@ p {
 
 .counter-up-section .counter-up-img img {
     width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .counter-up .counter .single-counter .content {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .counter-up .row .single-counter .content {
+        margin-bottom: 20px;
+    }
 }
